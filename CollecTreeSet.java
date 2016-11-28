@@ -1,9 +1,9 @@
 import java.util.*;
-public class Treeset {
+public class CollecTreeSet {
 
-public static void main(String aa){
+	public static void main(String aa){
 		
-		 TreeSet al=new TreeSet();
+		TreeSet al=new TreeSet();
 		  al.add(1);
 		  al.add(2);
 		  al.add(1);
@@ -22,7 +22,7 @@ public static void main(String aa){
 		  }*/
 		  
 		  System.out.println(al);
-	
-}}
+		  
 
-
+	}
+}

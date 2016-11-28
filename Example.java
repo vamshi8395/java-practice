@@ -1,10 +1,20 @@
-
 public class Example {
-	public static void main(String args[])
-	{
-		int a=10;
-		int b=10;
-		int c=a+b;
-System.out.println("addition is :"+c);
-}
+
+
+
+	public static void main(String args[]){
+		
+		String str="am not in danger am the danger";
+		char ch=str.charAt(5);
+		System.out.println(ch);
+		
+		
+		char[] mystr=new char[8];
+		str.getChars(3,11,mystr,0);
+		System.out.println(mystr);
+		
+			
+		
+	}
+	
 }
